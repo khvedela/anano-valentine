@@ -1,0 +1,37 @@
+/* Clean Girl Aesthetic Valentine's Design */
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cream: #FFF5F0;
+  --soft-pink: #FFD4E0;
+  --blush: #FFC2D1;
+  --rose: #FFB3C6;
+  --peach: #FFE5D9;
+  --ivory: #FFFBF5;
+  --gray: #E8E8E8;
+  --text: #4A4A4A;
+  --soft-brown: #D4A59A;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: linear-gradient(135deg, var(--cream) 0%, var(--peach) 100%);
+  color: var(--text);
+  cursor: default;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
